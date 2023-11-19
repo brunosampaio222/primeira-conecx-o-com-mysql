@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    padding: 2rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.book {
+    border: 1px solid #ccc;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.book + .book {
+    margin-top: 1rem;
+}
